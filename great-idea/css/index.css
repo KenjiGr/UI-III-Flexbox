@@ -110,8 +110,7 @@ h1{
 div.title{
 	text-align: center;
 	width: 49%;
-	display: inline-block;
-	padding: 50px;
+	padding: 90px 20px 90px 50px;
 }
 button{
 	width: 150px;
@@ -138,10 +137,13 @@ button:hover{
 .code{
 	display: inline-block;
 	width: 49%;
-	padding: 0px 50px;
+	padding: 20px 0px 10px 20px;
 }
 div.fix{
+	display: flex;
 	margin-top: 100px;
+	align-items: flex-start;
+	width: 90%;
 }
 /*main section styling*/
 hr { 
