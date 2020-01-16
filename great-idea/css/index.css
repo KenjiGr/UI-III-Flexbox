@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 body{
 	margin: auto;
 	width: 1000px;
+	border: 1px solid black;
 }
 /*Header Styling*/
 header{
@@ -83,7 +84,7 @@ header nav a{
 	overflow: hidden;
 	position: fixed;
 	top: 0;
-	width: 49%;
+	width: 52.5%;
 	background-color: rgb(0, 0, 92);
   }
 .navbar:hover{
@@ -118,7 +119,7 @@ button{
 	border: 1px solid black;
 }
 button:hover{
-	animation: Highlight 10s;
+	animation: Highlight 5s;
 }
 @keyframes Highlight {
 	0%{
@@ -195,4 +196,19 @@ div.contact{
 footer{
 	text-align: center;
 	margin: 50px 0px;
+}
+/*Services page*/
+.services-header-img{
+	margin-top: 100px;
+	width: 90%;
+	margin-left: 49px;
+}
+div.service{
+	display: flex;
+	align-content: center;
+	width: 90%;
+	flex-direction: column;
+}
+div.centerpage{
+	display: flex;
 }
