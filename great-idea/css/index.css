@@ -152,14 +152,19 @@ hr {
 	background:black;
 }
 div.feat{
-	display: inline-block;
+	display: flex;
 	width: 40%;
 	margin: 30px 10px 30px 45px;
+	flex-flow: column;
+}
+div.flow{
+	display: flex;
 }
 div.abt{
-	display: inline-block;
+	display: flex;
 	width: 40%;
 	margin: 30px 10px 30px 45px;
+	flex-flow: column;
 }
 .middle-img{
 	width: 90%;
