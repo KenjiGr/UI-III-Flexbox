@@ -60,3 +60,31 @@ header nav a{
     width: 50%;
     height: 400px;
 }
+.wrapper{
+    max-width: 700px;
+    margin: 50px auto;
+    background: rgb(27, 61, 172);
+    box-sizing: border-box;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.5);
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+.address{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: rgb(89, 119, 218);
+    margin-bottom: 50px;
+}
+
+.inner-address p{
+    font-size: 12px;
+}
