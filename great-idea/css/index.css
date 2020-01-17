@@ -197,7 +197,7 @@ footer{
 	margin: 50px 0px;
 }
 /*Services page*/
-.services-header-img{
+.services-header-img,{
 	margin-top: 100px;
 	width: 90%;
 	margin-left: 49px;
@@ -261,5 +261,15 @@ div.facts{
 	padding-right: 25px;
 }
 footer{
+	text-align: center;
+}
+/*contact page*/
+.contact-header-img{
+	width: 90%;
+	margin-left: 49px;
+	height: 400px;
+}
+.headcont{
+	margin-top: 100px;
 	text-align: center;
 }
